@@ -3,11 +3,16 @@ body{
 font-family: 'Prompt', sans-serif;
     margin:0;
 }
-h1{
+.heading{
     font-size: 70px;
     color: rgb(77, 76, 76);
-    margin-top: 190px;
-}
+    margin-top: 210px;
+} 
+h1{
+    font-size: 60px;
+    color: rgb(77, 76, 76);
+}   
+
 p{
     font-size: 25px;
     color: rgb(90, 88, 88);
@@ -31,6 +36,7 @@ p{
 .half-width2{
     width: 50%;
     padding-left: 2%;
+
 }
 .half-width2 img{
     width: 130%;
@@ -69,10 +75,78 @@ p{
     background-repeat: no-repeat;
     
 }
+
+
 .third-banner{
     text-align: center;
+    
+
+}
+
+
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 25.0%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
   
-}
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+ 
+  
 
 
-}
+
+
+
+
+
+
+
+
+
+
+  .main {
+    max-height: 200px;;
+    background-color: #292c2f;
+    color: white;
+    font-size: 38pt;
+    text-align: center;
+    line-height: 200px;
+   }
+   footer{
+    position: fixed;
+    bottom: 0;
+   }
+Aa
+
